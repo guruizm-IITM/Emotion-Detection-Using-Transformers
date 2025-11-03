@@ -1,4 +1,4 @@
-# Deep Emotion Detection with RoBERTa
+# Emotion Detection with RoBERTa
 
 This project applies Deep Learning and Transformer models to detect multiple emotions from text. Using RoBERTa fine-tuned for multi-label emotion classification, the model achieved a leaderboard score of **0.81** on the Kaggle “2025 Sep DL & GenAI Project” competition.
 
