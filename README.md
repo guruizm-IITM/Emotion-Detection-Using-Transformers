@@ -57,10 +57,10 @@ The dataset was relatively clean; no major noise or missing values.
 - Scored: **0.81**
 
 ### 3. Final Tuning
-- Increased training to **10 epochs**, with same LR (1e-5)  
+- Increased training to **15 epochs**, with same LR (1e-5)  
 - Kept warm-up + scheduler  
 - Fixed random seeds for reproducibility  
-- Final score: **0.849** ✅
+- Final score: **0.858** ✅
 
 ---
 
@@ -70,6 +70,7 @@ The dataset was relatively clean; no major noise or missing values.
 | BERT (baseline) | 3e-5 | 3 | 0.772 |
 | RoBERTa (tuned) | 1e-5 | 5 | 0.810 |
 | RoBERTa (optimized) | 1e-5 | 10 | **0.849** |
+| RoBERTa (optimized) | 1e-5 | 15 | **0.858** |
 
 ---
 
