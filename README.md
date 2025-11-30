@@ -60,7 +60,7 @@ The dataset was relatively clean; no major noise or missing values.
 - Increased training to **15 epochs**, with same LR (1e-5)  
 - Kept warm-up + scheduler  
 - Fixed random seeds for reproducibility  
-- Final score: **0.863** ✅
+- Final score: **0.866** ✅
 
 ---
 
@@ -72,6 +72,7 @@ The dataset was relatively clean; no major noise or missing values.
 | RoBERTa (optimized) | 1e-5 | 10 | **0.849** |
 | RoBERTa (optimized) | 1e-5 | 15 | **0.858** |
 | RoBERTa (optimized) | 2e-5 | 12 | **0.863** |
+| DeBERTa (optimized) | 1e-5 | 18 | **0.866** |
 
 ---
 
